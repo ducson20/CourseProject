@@ -1,0 +1,40 @@
+@import 'variables';
+
+h1{
+    font-size: 1em;
+    color: $red-color;
+    width: 100px;
+}
+
+.card-course-item{
+    margin-top: 16px;
+}
+
+.user-avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.checkbox-select-all-options{
+    width: 170px;
+    margin: 0 16px;
+}
+
+.oi-elevator{
+    margin-left: 15px;
+}
+.emailFormat{
+    opacity: 50%;
+}
+.card-log-register{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.button{
+    width: 355px;
+}
+
+
