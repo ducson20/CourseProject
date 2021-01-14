@@ -1,13 +1,14 @@
 require('dotenv').config();
 const path = require('path');
 const express = require('express');
+//Son12321
 //Gọi express thì sẽ trả về đối tượng là app của bạn
 const app = express();
 const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const methodOverride = require('method-override');
 const SortMiddleware = require('./app/middlewares/SortMiddleware')
-const port = 8000;
+const port = 8080;
 const route = require('./router');
 
 //

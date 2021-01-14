@@ -6,6 +6,7 @@ const { checkAuthenticated, checkNotAuthenticated } = require('../app/middleware
 const router = express.Router();
 
 const siteController = require('../app/controllers/SiteController');
+router.get('/image', siteController.image);
 router.get('/', checkAuthenticated, siteController.index);
 router.get('/google', passport.authenticate('google', { scope: ['profile'] }));
 router.get('/google/callback', passport.authenticate('google', {

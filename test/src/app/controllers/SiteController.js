@@ -106,6 +106,9 @@ class SiteController {
     search(req, res) {
         res.render('search');
     }
+    image(req, res){
+        res.render('users/user');
+    }
 }
 
 module.exports = new SiteController;
