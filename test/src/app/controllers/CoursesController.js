@@ -2,7 +2,7 @@ const Course = require('../models/Course');
 const { mongooseToObject } = require('../../util/mongoose');
 
 class CoursesController {
-
+    //Son is member1 branch
     // [GET /courses/:slug
     show(req, res, next) {
         Course.findOne({ slug: req.params.slug })
