@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const handlebars = require('express-handlebars');
 const methodOverride = require('method-override');
 const SortMiddleware = require('./app/middlewares/SortMiddleware')
-const port = 8000;
+const port = 8080;
 const route = require('./router');
 
 //
